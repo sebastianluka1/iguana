@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	border: 0;
+	font-family: Raleway,sans-serif; 
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+h1 {
+	color: #ffffff;
+	font-weight: 500;
+}
+
+h2 {
+	color: #ffffff;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+
+/* Header Iguana */
+
+.header {
+	
+	color: #ffffff;
+    width:100%;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 0px;
+	opacity: 1;
+	
+}
+
+.foto-gigante img {
+	top: 73px;
+    left: 0px;
+    width: 100%;
+    height: 727px;
+}
+
+/*DESCRIPCIÓN*/ /*display flex y width al 100% oara poner cosas al lado, me funcionó no sé por qué*/
+
+.desc-section {
+	margin: 0;
+	padding: 45px 0;
+	top: 800px;
+    left: 0px;
+	width: 100%;
+    height: 348px;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	
+  
+}
+
+.description-iguana {
+	margin:0 auto;
+	
+
+	}
+
+.text {
+text-align: left;
+font: normal normal 300 16px/19px Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+top: 876px;
+left: 150px;
+width: 475px;
+height: 197px;
+opacity: 1;
+padding-left: 20%;
+}
+
+
+.description-img img {
+	top: 845px;
+	left: 731px;
+	width: 50%;
+	height: 237px;
+	
+}
+
+
+.icons-section {
+	background-color: #1E1A13;
+	text-align: center;
+	padding: 50px;
+	
+}
+
+.icons-section h2 {
+	font-weight: 500;
+	font-size: 40px;
+	margin-bottom: 1em;
+}
+
+.iconos {
+	display: inline-block;
+	width: 30%;
+}
+
+.iconos h3 {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+/*Parte de imagenes*/
+
+.fotos-iguanas {
+	text-align: center;
+	padding: 75px 0;
+	display: flex;
+}
+
+.fotos-iguanas {
+	display: flex;
+	width: 90%;
+	vertical-align: middle;
+	padding-left: 3%;
+}
+
+.fotos-iguanas img {
+	width: 100%;
+}
+
+/*Parte de los footer*/
+
+footer {
+	background-color: #1E1A13;
+	text-align: center;
+	margin: 0;
+	padding: 2%;
+	color: #ffffff;
+	font-size: 20px;
+	opacity: 1;
+}
+
+footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
